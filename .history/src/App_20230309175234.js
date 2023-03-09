@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './login.css'; // Import the CSS file
+import './LoginForm.css'; // Import the CSS file
 
 function LoginForm() {
   const [username, setUsername] = useState('');
@@ -8,7 +8,6 @@ function LoginForm() {
   const handleSubmit = (event) => {
     event.preventDefault();
     // send form data to server for authentication
-    
   }
 
   return (

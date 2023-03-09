@@ -8,7 +8,6 @@ function LoginForm() {
   const handleSubmit = (event) => {
     event.preventDefault();
     // send form data to server for authentication
-    
   }
 
   return (

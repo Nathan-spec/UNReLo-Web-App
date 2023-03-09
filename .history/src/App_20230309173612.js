@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './login.css'; // Import the CSS file
 
 function LoginForm() {
   const [username, setUsername] = useState('');
@@ -8,12 +7,10 @@ function LoginForm() {
   const handleSubmit = (event) => {
     event.preventDefault();
     // send form data to server for authentication
-    
   }
 
   return (
-    <form onSubmit={handleSubmit} className="login-form">
-      <h2>Log In</h2>
+    <form onSubmit={handleSubmit}>
       <label>
         Username:
         <input
@@ -31,9 +28,6 @@ function LoginForm() {
         />
       </label>
       <button type="submit">Log In</button>
-      <div className="forgot-password">
-        <a href="#">Forgot password?</a>
-      </div>
     </form>
   );
 }

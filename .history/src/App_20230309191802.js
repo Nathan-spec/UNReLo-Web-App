@@ -30,7 +30,7 @@ function LoginForm() {
           onChange={(event) => setPassword(event.target.value)}
         />
       </label>
-      <button type="submit">Log In</button>
+      <button type="submit" onClick={ () => window.location.href = './Map'}>Log In</button>
       <div className="forgot-password">
         <a href="#">Forgot password?</a>
       </div>

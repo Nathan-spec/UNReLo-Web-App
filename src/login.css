@@ -1,0 +1,64 @@
+.login-form {
+    
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    background-color: #fff;
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .login-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .login-form button[type="submit"] {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0077cc;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .login-form button[type="submit"]:hover {
+    background-color: #005fa3;
+  }
+  
+  .forgot-password {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  .forgot-password a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline;
+  }

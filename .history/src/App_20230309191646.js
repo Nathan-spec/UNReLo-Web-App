@@ -5,10 +5,10 @@ function LoginForm() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
-  const handleSubmit = (event) => {
+  function handleSubmit(event){
     event.preventDefault();
     // send form data to server for authentication
-    
+    history.pushState("/Map");
   }
 
   return (
@@ -30,7 +30,7 @@ function LoginForm() {
           onChange={(event) => setPassword(event.target.value)}
         />
       </label>
-      <button type="submit">Log In</button>
+      <button type="submit" onClick={ () => window.location.href = './Map'}>Log In</button>
       <div className="forgot-password">
         <a href="#">Forgot password?</a>
       </div>

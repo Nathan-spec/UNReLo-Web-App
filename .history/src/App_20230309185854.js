@@ -5,10 +5,10 @@ function LoginForm() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
-  const handleSubmit = (event) => {
+  function handleSubmit(event){
     event.preventDefault();
     // send form data to server for authentication
-    
+    history.pushState("/Map");
   }
 
   return (
